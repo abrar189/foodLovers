@@ -47,18 +47,25 @@ let bodyRow= document.createElement('tbody');
 
   let customer =document.createElement('td');
   bodyRow.appendChild(customer);
-  customer.textContent= `${foodArry[i].customerName}`
+
 
   let typeEl =document.createElement('td');
   bodyRow.appendChild(typeEl);
-  typeEl.textContent= `${foodArry[i].FoodType}`;
 
-  let priceEl =document.createElement('td');
-  bodyRow.appendChild(priceEl);
-  priceEl.textContent= `${foodArry[i].foodprice}`;
+let pEL=document.createElement('p');
+typeEl.appendChild(pEL);
+pEL.textContent=`customer Name : ${foodArry[i].customerName}`;
+
+let pEl1=document.createElement('p');
+typeEl.appendChild(pEl1);
+pEl1.textContent=`Food Type: ${foodArry[i].FoodType}`;
+
+let pEl2=document.createElement('p');
+typeEl.appendChild(pEl2);
+pEl2.textContent=`Food Price: ${foodArry[i].foodprice}`;
 
   let imgEl =document.createElement('img');
-  bodyRow.appendChild(imgEl);
+  customer.appendChild(imgEl);
   imgEl.setAttribute('src',foodArry[i].img);
 
   }
