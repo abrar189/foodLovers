@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../img/background.jpg) ;
+}
+#logo{
+   width: 100px;
+   height: 100px;
+
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    background-color: rgba(255, 229, 72, 255);
+}
+/* }
+header{
+   background-color: rgba(255, 229, 72, 255);
+} */
+
+.formdiv {
+    float: left;
+    background-color: rgba(255, 229, 72, 255);
+    padding: 20px;
+}
+
+table
+footer{
+    background-color: rgba(255, 229, 72, 255);
+    color: red;
+}
+
+img{
+width: 100px;
+height: 100px;
+}
+
+table,th,td{
+    border: 2px solid red;
+}
+.tablediv{
+    float: right;
+    margin-right: 550px;
+}
+
